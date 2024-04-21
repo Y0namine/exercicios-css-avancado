@@ -1,0 +1,60 @@
+body {
+    background-color: var(--background-color);
+    font-family:  "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.caixa-pensamentos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    margin: 20px;
+    width: 345px;
+    
+}
+
+.caixa-pensamentos .titulo-caixa {
+    text-transform: uppercase;
+    color: var(--advice-dice-color);
+    font-size:15px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    
+}
+
+.caixa-pensamentos .texto-caixa {
+    color: var(--text-color);
+    font-size: 23px;
+    text-align: center;
+    padding: 23px;
+}
+
+.caixa-pensamentos picture img {
+    width: 100%;
+}
+
+
+
+.caixa-pensamentos .botao {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+.caixa-pensamentos .botao:hover{
+    color: aquamarine;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
